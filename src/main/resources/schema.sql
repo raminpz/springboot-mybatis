@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS PRODUCT (
+    id INT NOT NULL,
+    name VARCHAR(100),
+    status BOOLEAN NOT NULL,
+    PRIMARY KEY (id)
+);
